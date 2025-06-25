@@ -3,11 +3,17 @@ name = "master-eq"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Levente Blanar"}
+    {name = "Levente Blanar",email = "blanar.levente@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
+    "numpy (<2.3)",
+    "librosa (>=0.10.1)",
+    "llvmlite (>=0.40.1)",
+    "numba (>=0.57)",
+    "matplotlib (>=3.10.3,<4.0.0)",
+    "soundfile (>=0.13.1,<0.14.0)"
 ]
 
 
